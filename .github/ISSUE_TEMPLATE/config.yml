@@ -1,0 +1,10 @@
+contact_links:
+  - name: Issue guide
+    url: https://nw-page.github.io/standards/
+    about: First time here or need a refresh? Please consult the issue guide before posting.
+  - name: Ask a question
+    url: https://github.com/orgs/NW-PaGe/discussions/categories/q-a
+    about: Please ask and answer questions in our Discussion board
+  - name: Share an idea, a missing feature or anything else
+    url: https://github.com/orgs/NW-PaGe/discussions/categories/ideas
+    about: Please give us any feedback in our Discussion board
