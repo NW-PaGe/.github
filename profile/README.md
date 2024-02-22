@@ -2,7 +2,7 @@
 
 🙋‍♀️ This is the Github Org for the Northwest Pathogen Genomics Center of Excellence
 
-🌈 Please review the [contributing guides](CONTRIBUTING.md) for details on how to contribute to a project
+🌈 Please review the [contributing guides](https://github.com/NW-PaGe/.github/blob/main/CONTRIBUTING.md) for details on how to contribute to a project
 
 👩‍💻 Check out our website! https://nwpage.org/
 
