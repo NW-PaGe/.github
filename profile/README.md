@@ -1,6 +1,8 @@
 ## Welcome! 👋
 
-🙋‍♀️ This is the Github Org for the Northwest Pathogen Genomics Center of Excellence
+![image](https://github.com/NW-PaGe/.github/assets/92396451/97877924-b129-4b88-827d-62ed41b2545f)
+
+🙋‍♀️ This is the Github Org for the Northwest Pathogen Genomics Center of Excellence.
 
 🌈 Please review the [contributing guides](https://github.com/NW-PaGe/.github/blob/main/CONTRIBUTING.md) for details on how to contribute to a project
 
