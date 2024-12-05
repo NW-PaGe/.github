@@ -1,5 +1,10 @@
-# Pull Request Template
+<!-- 
+Thanks for creating this pull request 🤗
 
+Please make sure that the pull request is limited to one type (docs, feature, etc.) and keep it as small as possible. You can open multiple prs instead of opening a huge one.
+-->
+
+<!--
 ## Important Reminder: **Sensitive Data Review**
 
 Please ensure that **no sensitive data** (such as passwords, API keys, private keys, personal information, etc.) is included in your pull request. This includes sensitive data in both **text** and **images/screenshots**.
@@ -15,26 +20,24 @@ Please ensure that **no sensitive data** (such as passwords, API keys, private k
 ### If you’ve included sensitive data by mistake:
 
 Alert the owner of the repo and submit a ticket via [GitHub support](https://support.github.com/) requesting the PR to be deleted from the history of the repo.
+-->
 
-## Description
+## 📑 Description
+<!-- Add a brief description of the pr -->
 
-Please provide a summary of the changes and the related issue(s). Also include any relevant motivation or context for the changes.
-
-Fixes #(issue)
-
-## Type of Change
-
--   [ ] Bug fix
--   [ ] New feature
--   [ ] Documentation update
--   [ ] Other (please specify)
+<!-- You can also choose to add a list of changes and if they have been completed or not by using the markdown to-do list syntax
+- [ ] Not Completed
+- [x] Completed
+-->
 
 ## How to Test
 
+<!--
 Please describe the steps to test your changes. Include any relevant testing instructions or guidelines.
+-->
 
-## Checklist
-
+## ✅ Checks
+<!-- Make sure your pr passes the CI checks and do check the following fields as needed - -->
 -   [ ] I have **reviewed** the pull request for any sensitive data, including text and images.
 -   [ ] I have read and followed the contributing guidelines.
 -   [ ] I have checked my code for any issues.
@@ -46,8 +49,6 @@ Please describe the steps to test your changes. Include any relevant testing ins
 
 ## Screenshots (if applicable)
 
+<!--
 If your pull request includes images or screenshots, **please confirm** that no sensitive information is present. If unsure, remove or blur any potentially sensitive content.
-
-------------------------------------------------------------------------
-
-By submitting this pull request, you agree that you have thoroughly reviewed the content and are confident that no sensitive data is exposed.
+-->
