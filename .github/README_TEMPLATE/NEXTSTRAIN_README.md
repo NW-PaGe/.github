@@ -5,7 +5,7 @@
 - **Pathogen/Strain**: [Pathogen/Strain Name]
 - **Scope**: [Scope or targeted region/gene segments]
 - **Purpose**: This repository contains the Nextstrain build for [briefly describe the purpose of the build]
-- **Nextstrain Build Location**: [Insert the URL for the Nextstrain build on Nextstrain Groups]
+- **Nextstrain Build/s Location/s**: [Insert the URL for the Nextstrain build on Nextstrain Groups] [Insert another URL for instances when more than one Nextstrain build exists]
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -15,21 +15,21 @@
     - [Clone the repository](#clone-the-repository)
 - [Run the Build with Test Data](#run-the-build-with-test-data)
 - [Repository File Structure Overview](#repository-file-structure-overview)
-- [Expected Outputs and Interpretation](#expected-outputs-and-interpretation)
+- [Expected Outputs](#expected-outputs)
 - [Scientific Decisions](#scientific-decisions)
-- [Adapting for Another State](#adapting-for-another-state)
+- [Adapting for Another Jurisdiction](#adapting-for-another-jurisdiction)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Getting Started
-*(Provide any context new users should know before using this project.) Some high-level build features and capabilities are:*
+*(Provide any context new users should know before using this project.) Some high-level features and capabilities specific to this build include:*
 
-- [Feature 1]
-- [Feature 2]
+- [Feature 1: Feature 1 is helpful because it allows for X]
+- [Feature 2: Feature 2 is helpful because it allows for X]
 
 ### Data Sources & Inputs
-*(Provide any information on data sources and the build inputs needed)*
+*(Provide any information on data sources and the inputs needed to run the build)*
 This build relies on publicly available data sourced from [data sources].
 
 - **Sequence Data**: [Data sources]
@@ -37,6 +37,7 @@ This build relies on publicly available data sourced from [data sources].
 - **Expected Inputs**:
     - `[data_location]/sequences.fasta` (containing viral genome sequences)
     - `[data_location]/metadata.xls` (with relevant sample information)
+- **Private data, if applicable**:
 
 ### Setup & Dependencies
 #### Installation
@@ -70,6 +71,13 @@ When you run the build using `nextstrain build .`, Nextstrain uses Snakemake as 
 
 Example text below:
 
+This Nextstrain build follows the structure detailed in the [Pathogen Repo Guide](https://github.com/nextstrain/pathogen-repo-guide). 
+Mainly, this build contains [number] workflows for the analysis of [pathogen] virus data:
+- ingest/ [link to ingest workflow] Download data from [source], clean, format, curate it, and assign clades.
+- phylogenetic/ [link to phylogenetic workflow] Subsample data and make phylogenetic trees for use in nextstrain.
+
+OR
+
 The file structure of the repository is as follows with `*`" folders denoting folders that are the build's expected outputs.
 
 ```
@@ -90,16 +98,18 @@ The file structure of the repository is as follows with `*`" folders denoting fo
 - `scripts/`: contains what
 - `clade-labeling`: contains what
 
-## Expected Outputs and Interpretation
-*(Outline the expected outputs, what folders they come in, and any relevant interpretation of the outputs)*
+## Expected Outputs
+*(Outline the expected outputs and in which folders to locate them)*
 
 After successfully running the build there will be two output folders containing the build results.
 
-- `auspice/` folder contains:
+- `auspice/` folder contains: a .json file
 - `results/` folder contains:
 
 ## Scientific Decisions
 *(This section is dedicated to talking about the scientific decisions that were made in the development of the build to help others when making their own analyses or builds)*
+
+The following are critical decisions that were made during the development this build that should be kept in mind when analyzing the data.
 
 - **Tiered subsampling**: [Describe subsampling strategy, focusing on regions, priorities, etc...]
 - **Root selection**: [Describe the root selected for the build that mutations are called against]
@@ -107,13 +117,8 @@ After successfully running the build there will be two output folders containing
 - **Other adjustments**: [Explain any other important adjustments]
 
 
-## Adapting for Another State
- *[Instructions on how to adapt this build for another state. What files need to be modified and in what ways. The sections should be outlined in a clear way]*
- - **Input files**:
- - **Tiered subsampling**:
- - **Root selection**:
- - **Inclusion/Exclusion**:
-
+## Adapting for Another Jurisdiction
+ *[Brief overview on how to adapt this build for another jurisdiction, such as a state, city, county, or country. Including links to Readmes in other sections that contain detailed instructions on what and how to modify the files]*
 
 ## Contributing
 For any questions please submit them to our [Discussions](insert link here) page otherwise software issues and requests can be logged as a Git [Issue](insert link here).
