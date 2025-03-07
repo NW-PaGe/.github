@@ -17,7 +17,7 @@
 - [Repository File Structure Overview](#repository-file-structure-overview)
 - [Expected Outputs](#expected-outputs)
 - [Scientific Decisions](#scientific-decisions)
-- [Adapting for Another Jurisdiction](#adapting-for-another-jurisdiction)
+- [Customization for Local Adaptation](#customization-for-local-adaptation)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -117,8 +117,9 @@ The following are critical decisions that were made during the development this 
 - **Other adjustments**: [Explain any other important adjustments]
 
 
-## Adapting for Another Jurisdiction
+## Customization for Local Adaptation
  *[Brief overview on how to adapt this build for another jurisdiction, such as a state, city, county, or country. Including links to Readmes in other sections that contain detailed instructions on what and how to modify the files]*
+This build can be customized for use by other demes, including as states, cities, counties, or countries.
 
 ## Contributing
 For any questions please submit them to our [Discussions](insert link here) page otherwise software issues and requests can be logged as a Git [Issue](insert link here).
