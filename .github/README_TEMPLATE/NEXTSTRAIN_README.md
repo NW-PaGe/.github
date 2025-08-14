@@ -35,7 +35,6 @@ Examples:
   - Pathogen type and family
   - Key subtypes/lineages relevant to the build
   - Mode(s) of transmission
-- Nomenclature
 - Geographic Distribution and Seasonality
   - Summarize where the pathogen has been found globally and/or in the region
   - Any seasonality patterns
