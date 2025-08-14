@@ -16,7 +16,6 @@ Examples:
 ## Table of Contents
 - [Pathogen Epidemiology](#pathogen-epidemiology)
 - [Scientific Decisions](#scientific-decisions)
-- [Nomenclature](#nomenclature)
 - [Getting Started](#getting-started)
   - [Data Sources & Inputs](#data-sources--inputs)
   - [Setup & Dependencies](#setup--dependencies)
@@ -60,14 +59,12 @@ Examples:
 
 Nextstrain builds are designed for specific purposes and not all types of builds for a particular pathogen will answer the same questions. The following are critical decisions that were made during the development of this build that should be kept in mind when analyzing the data and using this build. *Subsampling, root selection, and reference selection must be included at minimum.*
 
+- **Nomenclature**: The nomenclature used by in this build to designate clade names is determined by [X]
 - **Subsampling**: [Describe subsampling strategy, focusing on regions, priorities, etc...]
 - **Root selection**: [Describe the root selected for the build that mutations are called against]
 - **Reference selection**: [Describe the reference selected for the build that was used in alignment]
 - **Inclusion/Exclusion**: [Explain why certain sequences may or may not be included/excluded]
 - **Other adjustments**: [Explain any other important adjustments]
-
-## Nomenclature
-The nomenclature used by in this build to designate clade names is determined by [X]
 
 ## Getting Started
 *(Provide any context new users should know before using this project.) Some high-level features and capabilities specific to this build include:*
