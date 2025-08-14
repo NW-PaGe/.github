@@ -35,6 +35,7 @@ Examples:
   - Pathogen type and family
   - Key subtypes/lineages relevant to the build
   - Mode(s) of transmission
+- Nomenclature
 - Geographic Distribution and Seasonality
   - Summarize where the pathogen has been found globally and/or in the region
   - Any seasonality patterns
@@ -145,7 +146,7 @@ After successfully running the build there will be two output folders containing
 
 This build can be customized for use by other demes, including as states, cities, counties, or countries.
 
-- What files or folders need to be modified in order to adapt for other jurisdictions? If this is lengthy then you can link to a wiki page tab that goes into detail on how someone might adapt this build for their jurisdiction. 
+- What files or folders need to be modified in order to adapt for other jurisdictions? If this is lengthy then you can link to a wiki page tab that goes into detail on how someone might adapt this build for their jurisdiction.
 
 ## Contributing
 For any questions please submit them to our [Discussions](insert link here) page otherwise software issues and requests can be logged as a Git [Issue](insert link here).
