@@ -6,6 +6,8 @@
 
 🌈 Please review the [contributing guides](https://github.com/NW-PaGe/.github/blob/main/CONTRIBUTING.md) for details on how to contribute to a project
 
+🌈 Please review [our GitHub guide](https://nw-page.github.io/standards/gh/)
+
 👩‍💻 Check out our website! https://nwpage.org/
 
 🍿 Fun facts - what does your team eat for breakfast?
